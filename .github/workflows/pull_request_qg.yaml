@@ -19,11 +19,19 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
 
-      - name: setup-chromedriver
-        uses: nanasess/setup-chromedriver@v1.0.1
+      - name: Restore Maven cache
+        uses: skjolber/maven-cache-github-action@v1
+        with:
+          step: restore
 
       - name: Validate code
         run: mvn validate
 
       - name: Run tests
+        uses: nanasess/setup-chromedriver@v1.0.1
         run: mvn clean install
+
+      - name: Save Maven cache
+        uses: skjolber/maven-cache-github-action@v1
+        with:
+          step: save
