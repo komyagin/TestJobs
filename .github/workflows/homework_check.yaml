@@ -25,3 +25,4 @@ jobs:
 
       - name: Run tests with profile
         run: mvn clean install -P$PROFILE
+

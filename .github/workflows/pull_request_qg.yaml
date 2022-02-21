@@ -25,6 +25,7 @@ jobs:
   clean_install:
     name: Run tests
     runs-on: ubuntu-latest
+    needs: [ validate ]
 
     steps:
       - uses: actions/checkout@v2
