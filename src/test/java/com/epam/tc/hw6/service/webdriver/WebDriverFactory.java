@@ -36,10 +36,7 @@ public final class WebDriverFactory {
     }
 
     private static Capabilities createChromeCapabilities() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
-        return options;
+        return new ChromeOptions();
     }
 
     private static Capabilities createFirefoxCapabilities() {

@@ -22,5 +22,13 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
+
+      - uses: actions/checkout@v2
+      - uses: nanasess/setup-chromedriver@v1
+      name: Set up Chrome driver
+      - run: |
+          export DISPLAY=:99
+          chromedriver --url-base=/wd/hub &
+
       - name: Run tests with profile
         run: mvn clean install -P$PROFILE
