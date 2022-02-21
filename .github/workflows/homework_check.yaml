@@ -23,6 +23,5 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
 
-      - uses: nanasess/setup-chromedriver@v1.0.1
       - name: Run tests with profile
         run: mvn clean install -P$PROFILE
