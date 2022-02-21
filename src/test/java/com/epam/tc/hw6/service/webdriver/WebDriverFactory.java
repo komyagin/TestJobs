@@ -15,26 +15,12 @@ public final class WebDriverFactory {
     }
 
     public static WebDriver createWebDriver(final Browser browser) {
-        Capabilities capabilities;
-        switch (browser) {
-            case CHROME:
-                capabilities = createChromeCapabilities();
-                break;
-            case FIREFOX:
-                capabilities = createFirefoxCapabilities();
-                break;
-            default:
-                throw new UnsupportedBrowserException();
-        }
-        return new ChromeDriver(capabilities);
-    }
-
-    private static Capabilities createChromeCapabilities() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
-        return options;
+        return new ChromeDriver(options);
     }
+
 
     private static Capabilities createFirefoxCapabilities() {
         return new FirefoxOptions();
