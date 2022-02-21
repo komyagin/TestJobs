@@ -7,8 +7,8 @@ on:
     types: [ opened, reopened, synchronize ]
 
 jobs:
-  clean_compile:
-    name: Check homework
+  validate:
+    name: Check style
     runs-on: ubuntu-latest
 
     steps:
@@ -19,5 +19,20 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
 
-      - name: Run tests
+      - name: Maven Validate
+        run: mvn validate
+
+  clean_install:
+    name: Run tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+
+      - name: Maven clean install
         run: mvn clean install
