@@ -24,5 +24,5 @@ jobs:
           distribution: 'adopt'
 
       - name: Run tests with profile
-        uses: nanasess/setup-chromedriver@v1.0.1
+      - uses: nanasess/setup-chromedriver@v1.0.1
         run: mvn clean install -P$PROFILE

@@ -28,7 +28,7 @@ jobs:
         run: mvn validate
 
       - name: Run tests
-        uses: nanasess/setup-chromedriver@v1.0.1
+      - uses: nanasess/setup-chromedriver@v1.0.1
         run: mvn clean install
 
       - name: Save Maven cache
