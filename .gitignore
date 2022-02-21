@@ -1,6 +1,5 @@
-target/
-log/
-*.iml
-*.iws
-.idea/
-out/
+/target/
+/.idea/
+/*.iml
+/formatter/
+/.allure/

@@ -15,28 +15,14 @@ public final class WebDriverFactory {
     }
 
     public static WebDriver createWebDriver(final Browser browser) {
-        Capabilities capabilities;
-        switch (browser) {
-            case CHROME:
-                capabilities = createChromeCapabilities();
-                break;
-            case FIREFOX:
-                capabilities = createFirefoxCapabilities();
-                break;
-            default:
-                throw new UnsupportedBrowserException();
-        }
-        WebDriver driver;
-        try {
-            driver = new RemoteWebDriver(new URL(HUB), capabilities);
-        } catch (MalformedURLException e) {
-            throw new IllegalArgumentException(e);
-        }
-        return driver;
+        return null;
     }
 
     private static Capabilities createChromeCapabilities() {
-        return new ChromeOptions();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
+        options.addArguments("--no-sandbox");
+        return options;
     }
 
     private static Capabilities createFirefoxCapabilities() {
