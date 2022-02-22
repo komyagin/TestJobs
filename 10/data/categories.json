@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "\nThe following assertion failed:\n1) Manually failed\nat Exercise1FailedTest.exercise1FailedTest(Exercise1FailedTest.java:25)\n",
+      "children" : [ {
+        "name" : "exercise1FailedTest",
+        "uid" : "73849412527dc502",
+        "parentUid" : "07cbade224104e9d643382b856b66d48",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645523803225,
+          "stop" : 1645523804254,
+          "duration" : 1029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Roman", "Jdi1234", "ROMAN IOVLEV", "Home Page", "[HOME, CONTACT FORM, SERVICE, METALS & COLORS]", "4", "[To include good practices\nand ideas from successful\nEPAM project, To be flexible and\ncustomizable, To be multiplatform, Already have good base\n(about 20 internal and\nsome external projects),\nwish to get more…]", "[Home, Contact form, Service, Metals & Colors, Elements packs]" ]
+      } ],
+      "uid" : "07cbade224104e9d643382b856b66d48"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
