@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Feb 22 09:56:41 GMT 2022","Tue Feb 22 09:56:42 GMT 2022","966","All Exercises Test Suite","All Exercises Test","com.epam.tc.hw4.tests.ex1.Exercise1SuccessfulTest","com.epam.tc.hw4.tests.ex1.Exercise1SuccessfulTest","exercise1SuccessfulTest","exercise1SuccessfulTest",""
-"passed","Tue Feb 22 09:56:36 GMT 2022","Tue Feb 22 09:56:40 GMT 2022","3680","All Exercises Test Suite","All Exercises Test","com.epam.tc.hw4.tests.ex2.Exercise2Test","com.epam.tc.hw4.tests.ex2.Exercise2Test","exercise2Test","exercise2Test",""
-"failed","Tue Feb 22 09:56:43 GMT 2022","Tue Feb 22 09:56:44 GMT 2022","1029","All Exercises Test Suite","All Exercises Test","com.epam.tc.hw4.tests.ex1.Exercise1FailedTest","com.epam.tc.hw4.tests.ex1.Exercise1FailedTest","exercise1FailedTest","exercise1FailedTest",""

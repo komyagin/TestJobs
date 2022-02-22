@@ -1,0 +1,422 @@
+{
+  "uid" : "f53a01fc587d2f2c",
+  "name" : "exercise2Test",
+  "fullName" : "com.epam.tc.hw4.tests.ex2.Exercise2Test.exercise2Test",
+  "historyId" : "6610dea7e85a3095e95063f1dfae2b3a",
+  "time" : {
+    "start" : 1645524588063,
+    "stop" : 1645524591527,
+    "duration" : 3464
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1645524581313,
+      "stop" : 1645524587904,
+      "duration" : 6591
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Open test site by URL",
+      "time" : {
+        "start" : 1645524586815,
+        "stop" : 1645524587904,
+        "duration" : 1089
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "2. Assert Browser title",
+      "time" : {
+        "start" : 1645524588074,
+        "stop" : 1645524588910,
+        "duration" : 836
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "Home Page"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "3. Perform login",
+      "time" : {
+        "start" : 1645524588910,
+        "stop" : 1645524589544,
+        "duration" : 634
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Roman"
+      }, {
+        "name" : "pass",
+        "value" : "Jdi1234"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "4. Assert ROMAN IOVLEV is logged in",
+      "time" : {
+        "start" : 1645524589547,
+        "stop" : 1645524589722,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "ROMAN IOVLEV"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "5. Open through the header menu Service -> Different Elements Page",
+      "time" : {
+        "start" : 1645524589723,
+        "stop" : 1645524590027,
+        "duration" : 304
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "differentElementsPageTitle",
+        "value" : "Different Elements"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "6. Select checkboxes",
+      "time" : {
+        "start" : 1645524590028,
+        "stop" : 1645524590695,
+        "duration" : 667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "com.epam.tc.hw4.pages.diffelements.DifferentElementsPage@14c1d07a"
+      }, {
+        "name" : "checkboxesExpected",
+        "value" : "[Water, Wind]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "7. Select radio",
+      "time" : {
+        "start" : 1645524590696,
+        "stop" : 1645524590862,
+        "duration" : 166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "com.epam.tc.hw4.pages.diffelements.DifferentElementsPage@14c1d07a"
+      }, {
+        "name" : "radioExpected",
+        "value" : "Selen"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "8. Select in dropdown",
+      "time" : {
+        "start" : 1645524590862,
+        "stop" : 1645524591243,
+        "duration" : 381
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "com.epam.tc.hw4.pages.diffelements.DifferentElementsPage@14c1d07a"
+      }, {
+        "name" : "colorExpected",
+        "value" : "Yellow"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "9. Assert that conditions are true",
+      "time" : {
+        "start" : 1645524591244,
+        "stop" : 1645524591524,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "9.1. for each checkbox there is an individual log row and value is corresponded to the status of checkbox",
+        "time" : {
+          "start" : 1645524591325,
+          "stop" : 1645524591405,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "checkboxesExpected",
+          "value" : "[Water, Wind]"
+        }, {
+          "name" : "logs",
+          "value" : "[[[ChromeDriver: chrome on LINUX (edc30d1539dff4f7fcf5ab1ebe699f89)] -> css selector: .logs li], [[ChromeDriver: chrome on LINUX (edc30d1539dff4f7fcf5ab1ebe699f89)] -> css selector: .logs li], [[ChromeDriver: chrome on LINUX (edc30d1539dff4f7fcf5ab1ebe699f89)] -> css selector: .logs li], [[ChromeDriver: chrome on LINUX (edc30d1539dff4f7fcf5ab1ebe699f89)] -> css selector: .logs li]]"
+        }, {
+          "name" : "checkboxLogPattern",
+          "value" : "%s: condition changed to true"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "9.2. for radio button there is a log row and value is corresponded to the status of radio button",
+        "time" : {
+          "start" : 1645524591438,
+          "stop" : 1645524591469,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "radioExpected",
+          "value" : "Selen"
+        }, {
+          "name" : "logs",
+          "value" : "[[[ChromeDriver: chrome on LINUX (edc30d1539dff4f7fcf5ab1ebe699f89)] -> css selector: .logs li], [[ChromeDriver: chrome on LINUX (edc30d1539dff4f7fcf5ab1ebe699f89)] -> css selector: .logs li], [[ChromeDriver: chrome on LINUX (edc30d1539dff4f7fcf5ab1ebe699f89)] -> css selector: .logs li], [[ChromeDriver: chrome on LINUX (edc30d1539dff4f7fcf5ab1ebe699f89)] -> css selector: .logs li]]"
+        }, {
+          "name" : "radioLogPattern",
+          "value" : "metal: value changed to %s"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "9.3. for dropdown there is a log row and value is corresponded to the selected value",
+        "time" : {
+          "start" : 1645524591495,
+          "stop" : 1645524591524,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "colorExpected",
+          "value" : "Yellow"
+        }, {
+          "name" : "logs",
+          "value" : "[[[ChromeDriver: chrome on LINUX (edc30d1539dff4f7fcf5ab1ebe699f89)] -> css selector: .logs li], [[ChromeDriver: chrome on LINUX (edc30d1539dff4f7fcf5ab1ebe699f89)] -> css selector: .logs li], [[ChromeDriver: chrome on LINUX (edc30d1539dff4f7fcf5ab1ebe699f89)] -> css selector: .logs li], [[ChromeDriver: chrome on LINUX (edc30d1539dff4f7fcf5ab1ebe699f89)] -> css selector: .logs li]]"
+        }, {
+          "name" : "colorLogPattern",
+          "value" : "Colors: value changed to %s"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "com.epam.tc.hw4.pages.diffelements.DifferentElementsPage@14c1d07a"
+      }, {
+        "name" : "checkboxesExpected",
+        "value" : "[Water, Wind]"
+      }, {
+        "name" : "checkboxLogPattern",
+        "value" : "%s: condition changed to true"
+      }, {
+        "name" : "radioLogPattern",
+        "value" : "metal: value changed to %s"
+      }, {
+        "name" : "colorLogPattern",
+        "value" : "Colors: value changed to %s"
+      }, {
+        "name" : "radioExpected",
+        "value" : "Selen"
+      }, {
+        "name" : "colorExpected",
+        "value" : "Yellow"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1645524591544,
+      "stop" : 1645524591679,
+      "duration" : 135
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Close Browser",
+      "time" : {
+        "start" : 1645524591545,
+        "stop" : 1645524591679,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.tc.hw4.tests.ex2.Exercise2Test"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.tc.hw4.tests.ex2.Exercise2Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "exercise2Test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Exercises Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "All Exercises Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.tc.hw4.tests.ex2.Exercise2Test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az127-407"
+  }, {
+    "name" : "thread",
+    "value" : "2350@fv-az127-407.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Exercise2"
+  }, {
+    "name" : "feature",
+    "value" : "Home page"
+  }, {
+    "name" : "feature",
+    "value" : "Different elements page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Roman"
+  }, {
+    "name" : "arg1",
+    "value" : "Jdi1234"
+  }, {
+    "name" : "arg10",
+    "value" : "Colors: value changed to %s"
+  }, {
+    "name" : "arg2",
+    "value" : "ROMAN IOVLEV"
+  }, {
+    "name" : "arg3",
+    "value" : "Home Page"
+  }, {
+    "name" : "arg4",
+    "value" : "Different Elements"
+  }, {
+    "name" : "arg5",
+    "value" : "[Water, Wind]"
+  }, {
+    "name" : "arg6",
+    "value" : "Selen"
+  }, {
+    "name" : "arg7",
+    "value" : "Yellow"
+  }, {
+    "name" : "arg8",
+    "value" : "%s: condition changed to true"
+  }, {
+    "name" : "arg9",
+    "value" : "metal: value changed to %s"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f53a01fc587d2f2c.json",
+  "parameterValues" : [ "Roman", "Jdi1234", "Colors: value changed to %s", "ROMAN IOVLEV", "Home Page", "Different Elements", "[Water, Wind]", "Selen", "Yellow", "%s: condition changed to true", "metal: value changed to %s" ]
+}

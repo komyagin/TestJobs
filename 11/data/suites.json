@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "All Exercises Test Suite",
+    "children" : [ {
+      "name" : "All Exercises Test",
+      "children" : [ {
+        "name" : "com.epam.tc.hw4.tests.ex2.Exercise2Test",
+        "children" : [ {
+          "name" : "exercise2Test",
+          "uid" : "f53a01fc587d2f2c",
+          "parentUid" : "395c22711c5781cdce5e6fa678994f6c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1645524588063,
+            "stop" : 1645524591527,
+            "duration" : 3464
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Roman", "Jdi1234", "Colors: value changed to %s", "ROMAN IOVLEV", "Home Page", "Different Elements", "[Water, Wind]", "Selen", "Yellow", "%s: condition changed to true", "metal: value changed to %s" ]
+        } ],
+        "uid" : "395c22711c5781cdce5e6fa678994f6c"
+      }, {
+        "name" : "com.epam.tc.hw4.tests.ex1.Exercise1SuccessfulTest",
+        "children" : [ {
+          "name" : "exercise1SuccessfulTest",
+          "uid" : "2cc2dba6a0afc30",
+          "parentUid" : "fa4fb96e9c448bacf6318f4461053310",
+          "status" : "passed",
+          "time" : {
+            "start" : 1645524592367,
+            "stop" : 1645524593330,
+            "duration" : 963
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Roman", "Jdi1234", "ROMAN IOVLEV", "Home Page", "[HOME, CONTACT FORM, SERVICE, METALS & COLORS]", "4", "[To include good practices\nand ideas from successful\nEPAM project, To be flexible and\ncustomizable, To be multiplatform, Already have good base\n(about 20 internal and\nsome external projects),\nwish to get more…]", "[Home, Contact form, Service, Metals & Colors, Elements packs]" ]
+        } ],
+        "uid" : "fa4fb96e9c448bacf6318f4461053310"
+      }, {
+        "name" : "com.epam.tc.hw4.tests.ex1.Exercise1FailedTest",
+        "children" : [ {
+          "name" : "exercise1FailedTest",
+          "uid" : "24c45958a71e7617",
+          "parentUid" : "e1d548a77d54b51349053937da686c65",
+          "status" : "failed",
+          "time" : {
+            "start" : 1645524594095,
+            "stop" : 1645524595143,
+            "duration" : 1048
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Roman", "Jdi1234", "ROMAN IOVLEV", "Home Page", "[HOME, CONTACT FORM, SERVICE, METALS & COLORS]", "4", "[To include good practices\nand ideas from successful\nEPAM project, To be flexible and\ncustomizable, To be multiplatform, Already have good base\n(about 20 internal and\nsome external projects),\nwish to get more…]", "[Home, Contact form, Service, Metals & Colors, Elements packs]" ]
+        } ],
+        "uid" : "e1d548a77d54b51349053937da686c65"
+      } ],
+      "uid" : "1c05b4f45697616bc582b29883360054"
+    } ],
+    "uid" : "2f1996b9b0dcbad784df25e9c701ae5b"
+  } ],
+  "name" : "suites"
+}

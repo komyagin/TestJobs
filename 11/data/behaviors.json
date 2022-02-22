@@ -1,0 +1,77 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Home page",
+    "children" : [ {
+      "name" : "Exercise2",
+      "children" : [ {
+        "name" : "exercise2Test",
+        "uid" : "f53a01fc587d2f2c",
+        "parentUid" : "28035aac8112e6d350c71b5afab8ceff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645524588063,
+          "stop" : 1645524591527,
+          "duration" : 3464
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Roman", "Jdi1234", "Colors: value changed to %s", "ROMAN IOVLEV", "Home Page", "Different Elements", "[Water, Wind]", "Selen", "Yellow", "%s: condition changed to true", "metal: value changed to %s" ]
+      } ],
+      "uid" : "28035aac8112e6d350c71b5afab8ceff"
+    }, {
+      "name" : "Exercise1",
+      "children" : [ {
+        "name" : "exercise1SuccessfulTest",
+        "uid" : "2cc2dba6a0afc30",
+        "parentUid" : "d54fd7d343b51566ca3edebc715707c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645524592367,
+          "stop" : 1645524593330,
+          "duration" : 963
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Roman", "Jdi1234", "ROMAN IOVLEV", "Home Page", "[HOME, CONTACT FORM, SERVICE, METALS & COLORS]", "4", "[To include good practices\nand ideas from successful\nEPAM project, To be flexible and\ncustomizable, To be multiplatform, Already have good base\n(about 20 internal and\nsome external projects),\nwish to get more…]", "[Home, Contact form, Service, Metals & Colors, Elements packs]" ]
+      }, {
+        "name" : "exercise1FailedTest",
+        "uid" : "24c45958a71e7617",
+        "parentUid" : "d54fd7d343b51566ca3edebc715707c0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645524594095,
+          "stop" : 1645524595143,
+          "duration" : 1048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Roman", "Jdi1234", "ROMAN IOVLEV", "Home Page", "[HOME, CONTACT FORM, SERVICE, METALS & COLORS]", "4", "[To include good practices\nand ideas from successful\nEPAM project, To be flexible and\ncustomizable, To be multiplatform, Already have good base\n(about 20 internal and\nsome external projects),\nwish to get more…]", "[Home, Contact form, Service, Metals & Colors, Elements packs]" ]
+      } ],
+      "uid" : "d54fd7d343b51566ca3edebc715707c0"
+    } ],
+    "uid" : "30fb31f1f7d0eec1880ce5bc2f9e7a59"
+  }, {
+    "name" : "Different elements page",
+    "children" : [ {
+      "name" : "Exercise2",
+      "children" : [ {
+        "name" : "exercise2Test",
+        "uid" : "f53a01fc587d2f2c",
+        "parentUid" : "0f7523c6c9386669d26e5877f80ed6ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645524588063,
+          "stop" : 1645524591527,
+          "duration" : 3464
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Roman", "Jdi1234", "Colors: value changed to %s", "ROMAN IOVLEV", "Home Page", "Different Elements", "[Water, Wind]", "Selen", "Yellow", "%s: condition changed to true", "metal: value changed to %s" ]
+      } ],
+      "uid" : "0f7523c6c9386669d26e5877f80ed6ec"
+    } ],
+    "uid" : "eccfb7cf9c24224ca2e7c8f706e3cce9"
+  } ],
+  "name" : "behaviors"
+}

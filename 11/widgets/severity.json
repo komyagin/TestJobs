@@ -1,0 +1,31 @@
+[ {
+  "uid" : "f53a01fc587d2f2c",
+  "name" : "exercise2Test",
+  "time" : {
+    "start" : 1645524588063,
+    "stop" : 1645524591527,
+    "duration" : 3464
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cc2dba6a0afc30",
+  "name" : "exercise1SuccessfulTest",
+  "time" : {
+    "start" : 1645524592367,
+    "stop" : 1645524593330,
+    "duration" : 963
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24c45958a71e7617",
+  "name" : "exercise1FailedTest",
+  "time" : {
+    "start" : 1645524594095,
+    "stop" : 1645524595143,
+    "duration" : 1048
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
