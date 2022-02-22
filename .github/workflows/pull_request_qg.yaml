@@ -3,8 +3,12 @@ name: Homework checking
 on:
   pull_request:
     branches:
-      - master
+      - main
     types: [ opened, reopened, synchronize ]
+
+env:
+  API_KEY: ${{ secrets.API_KEY }}
+  API_TOKEN: ${{ secrets.API_TOKEN }}
 
 jobs:
   validate:
@@ -36,4 +40,4 @@ jobs:
           distribution: 'adopt'
 
       - name: Maven clean install
-        run: mvn clean install
+        run: mvn clean install --quiet
