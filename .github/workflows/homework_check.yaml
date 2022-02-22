@@ -45,7 +45,6 @@ jobs:
           PUBLISH_DIR: allure-history
 
       - name: Post the link to the report
-        shell: bash
         run: |
           echo
           echo "Allure report could be found here: https://komyagin.github.io/TestJobs/${{ github.run_number }}"
