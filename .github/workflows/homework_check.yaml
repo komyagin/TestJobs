@@ -25,3 +25,28 @@ jobs:
 
       - name: Run tests with profile
         run: mvn clean install -P$PROFILE
+
+      - name: Test marketplace action
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
+        with:
+          allure_results: target/allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
+
+      - name: Post the link to the report
+        shell: bash
+        run: |
+          echo
+          echo "Allure report could be found here: https://komyagin.github.io/TestJobs/${{ github.run_number }}"
+          echo
