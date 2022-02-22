@@ -190,9 +190,6 @@
       <properties>
         <suite.xml.name>${project.basedir}/src/test/resources/com/epam/tc/hw2/suites/AllExercisesTestSuite.XML</suite.xml.name>
       </properties>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
     </profile>
     <profile>
       <id>hw2-exercise1-test-suite</id>
@@ -247,6 +244,9 @@
       <properties>
         <suite.xml.name>${project.basedir}/src/test/resources/com/epam/tc/hw7/suites/Hw7TestSuite.XML</suite.xml.name>
       </properties>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
     </profile>
   </profiles>
 
