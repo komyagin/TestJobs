@@ -36,4 +36,4 @@ jobs:
           distribution: 'adopt'
 
       - name: Maven clean install
-        run: mvn clean install
+        run: mvn clean install --quiet

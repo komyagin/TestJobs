@@ -24,4 +24,4 @@ jobs:
           distribution: 'adopt'
 
       - name: Run tests with profile
-        run: mvn clean install -P$PROFILE
+        run: mvn clean install -P$PROFILE --quiet
